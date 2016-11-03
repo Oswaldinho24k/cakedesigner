@@ -17,4 +17,4 @@
 	.module('cakedesigner')
 	.component('landingComponent',landing);
 
-})()
+})();

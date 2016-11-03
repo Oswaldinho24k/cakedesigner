@@ -8,10 +8,10 @@
                 .when('/',{
                     template:`<landing-component></landing-component>`
                 })
-                /*.when('/productos',{
-                    template:`<productos-component></productos-component>`
+                .when('/cakes',{
+                    template:`<catalogo-component></catalogo-component>`
                 })
-                .when('/contacto',{
+                /*.when('/contacto',{
                      template: `<contacto-component></contacto-component>`
                 })
                 .when('/accesorios',{

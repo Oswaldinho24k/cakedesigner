@@ -2,21 +2,44 @@
 <html ng-app="cakedesigner">
 <head>
 	<title>cake</title>
+	<meta charset="utf-8">
+	 <!-- bootstrap -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css">
+    <link rel="icon" href="assets/images/girl.jpg" type="image/png" sizes="16x16">
+    <!-- main css-->
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
-{{1+1}}
-<main ng-view></main>
+<navbar-component></navbar-component>
+<main style="min-height: 400px;" ng-view></main>
+<footer-component></footer-component>
 
 	
 
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
-
+	<!-- Angular-->
+	<script src="/bower_components/angular/angular.js"></script>
+	<!-- Angular_Routes-->
+	<script src="/bower_components/angular-route/angular-route.js"></script>
+	<!-- JQuery-->
+	<script src="/bower_components/jquery/dist/jquery.js"></script>
+	<!-- Bootstrap-->
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<!-- Fontawesome-->
+	<script src="/bower_components/font-awesome/css/font-awesome.css"></script>
+	
+	<!--Angular app and routes files-->
 	<script src="app/app.js"></script>
     <script src="app/routes.js"></script>
-
+    <!--Components-->
     <script src="app/components/landing/landing.js"></script>
+    <script src="app/components/catalogo/catalogo.js"></script>
+    <script src="app/components/navbar/navbar.js"></script>
+    <script src="app/components/footer/footer.js"></script>
+
+
+
 </body>
 </html>

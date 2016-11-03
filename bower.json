@@ -1,0 +1,25 @@
+{
+  "name": "cakedesigner",
+  "homepage": "/",
+  "authors": [
+    "Oswaldo <oswalfut_96@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
