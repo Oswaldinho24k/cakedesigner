@@ -1,3 +1,15 @@
 .nel{
 	background: #80ffbf;	
+	padding: 2%;
+}
+.social a{
+	font-size: 2em;
+	margin: 1%;
+	text-align: center;
+	color: rgb(255, 204, 220);
+	text-shadow: 1px 1px #000;
+}
+.logof{
+	width: 60vh;
+	height: 30vh;
 }
