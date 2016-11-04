@@ -1,5 +1,6 @@
 @import "_navbar.css";
 @import "_footer.css";
+@import "_landing.css";
 
 
 
@@ -9,4 +10,13 @@
 *{
 	margin: 0 auto;
 	padding: 0;
+	
+
+}
+/*Temporal*/
+.row{
+	margin: 0 auto;
+}
+h2{
+	margin: 0 auto;
 }

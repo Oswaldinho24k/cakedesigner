@@ -74,8 +74,9 @@
 }
 
 .menu {
-  position: absolute;
+  position:absolute;
   
+
   padding:1%;
   margin: 0 auto;
   font-size: 2em;
@@ -158,12 +159,12 @@
   -webkit-transform: translate3d(440px, 0, 0);
           transform: translate3d(440px, 0, 0);
 }
-.navbarcake{
-  background-color: rgba(255, 204, 220, .5);
-  height: 6em;
-}
 
 .navi{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+.navi h2{
+  margin: 0;
+  padding-top: 1%;
 }
